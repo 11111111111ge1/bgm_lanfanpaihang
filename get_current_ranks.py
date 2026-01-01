@@ -67,7 +67,7 @@ def get_subject_rank(subject_id: int, rank_position: int = None, retry_times: in
 
     # 设置请求头
     headers = {
-        "User-Agent": "bgmlanfanpaihang/1.0",
+        "User-Agent": "onebyten/bgmlanfanpaihang (https://github.com/11111111111ge1/bgm_lanfanpaihang)",
         "Content-Type": "application/json"
     }
     if BANGUMI_ACCESS_TOKEN:

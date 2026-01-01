@@ -34,7 +34,7 @@ class BangumiAPIClient:
 
         self.session.headers.update({
             "Authorization": f"Bearer {self.access_token}",
-            "User-Agent": "bgmlanfanpaihang/1.0",
+            "User-Agent": "onebyten/bgmlanfanpaihang (https://github.com/11111111111ge1/bgm_lanfanpaihang)",
             "Content-Type": "application/json"
         })
 

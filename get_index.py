@@ -37,7 +37,7 @@ def get_index_by_id(index_id: int) -> dict:
     url = f"{BANGUMI_BASE_URL}/v0/indices/{index_id}"
     headers = {
         "Authorization": f"Bearer {BANGUMI_ACCESS_TOKEN}",
-        "User-Agent": "bgmlanfanpaihang/1.0",
+        "User-Agent": "onebyten/bgmlanfanpaihang (https://github.com/11111111111ge1/bgm_lanfanpaihang)",
         "Accept": "application/json"
     }
 
@@ -112,7 +112,7 @@ def get_index_subjects(index_id: int, subject_type: int = 2, limit: int = 30, of
     }
     headers = {
         "Authorization": f"Bearer {BANGUMI_ACCESS_TOKEN}",
-        "User-Agent": "bgmlanfanpaihang/1.0",
+        "User-Agent": "onebyten/bgmlanfanpaihang (https://github.com/11111111111ge1/bgm_lanfanpaihang)",
         "Accept": "application/json"
     }
 
